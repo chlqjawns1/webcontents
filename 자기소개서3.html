@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: aliceblue;
+            }
+            h2{
+                color: brown;
+                text-align: center;
+            }
+            header{
+                border-bottom: 1px solid black;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+            }
+            nav ul {
+                border: 1px dashed black;
+                padding: 15px 30px;
+                list-style-type: disc;
+            }
+            nav a {
+                text-decoration: none;
+            }
+            p {
+                font-family: "휴먼편지체", "Comic Sans MS", sans-serif;
+                font-size: 1em;
+                text-indent: 1em;
+                line-height: 1.6;
+            }
+            .main-list {
+                list-style-type: disc;
+                font-family: "휴먼편지체", sans-serif;
+                font-size: 1em;
+            }
+            .sub-list {
+                list-style-type: circle;
+                padding-left: 20px;
+            }
+            .hobby-table {
+                border-collapse: collapse;
+                border: none;
+            }
+            .hobby-table td {
+                border: none;
+                padding: 10px;
+                text-align: center;
+            }
+            .hobby-table img {
+                width: 200px;
+                height: 130px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+            .hobby-title {
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            .schedule-table {
+                border-collapse: collapse;
+                width: 100%;
+                max-width: 600px;
+                background-color: white;
+                margin-top: 10px;
+            }
+            .schedule-table th, .schedule-table td {
+                border: 1px solid #ccc;
+                padding: 8px;
+                text-align: center;
+            }
+            .schedule-table th {
+                background-color: #e6f2ff;
+                color: #333;
+            }
+            .schedule-table td:first-child {
+                background-color: #f9f9f9;
+                font-weight: bold;
+            }
+            footer {
+                background-color: orange;
+                border-radius: 10px;
+                padding: 15px;
+                text-align: center;
+                margin-top: 30px;
+                border: 1px solid #d48800;
+            }
+            footer a {
+                color: black;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: white;
+                padding: 5px 10px;
+                border-radius: 5px;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>자기소개서</title>
+    </head>
+    <body>
+        <header>
+        <div>
+        <h2>about me</h2>
+        <hr>
+        안녕하세요? 제 이름은 최범준입니다. 올해 대학교를 입학한 새내기입니다<br>
+        다양한 관심분야와 취미 활동을 하고 있습니다. 즐거운 하루들 되세요~
+        </div>
+        </header>
+
+        <nav>
+        <div>
+            <h2>목차</h2>
+            <li><a href="interest">관심분야</a></li>
+            <li><a href="hobby">취미활동</a></li>
+            <li><a href="Class schedule">강의 시간표</a></li>
+        </div>
+        </nav>
+
+        <section>
+        <div>   
+            <article id="interest">
+                <h2>관심 분야</h2>
+            <hr>
+            <ul>
+                <li>소프트웨어 개발 (Software Development)
+                    <ul>
+                        <li>웹 개발 (Frontend / Backend)
+                        <li>모바일 앱 개발 (Android, iOS)
+                        <li>데이터베이스 설계 및 관리
+                    </ul>
+                <li>인공지능 (AI)
+                    <ul>
+                        <li>머신러닝 (Machine Learning)
+                        <li>딥러닝 (Deep Learning)
+                        <li>데이터 분석 (Data Analysis)
+                    </ul>
+                <li>시스템 & 네트워크
+                    <ul>
+                        <li>운영체제 (Operating System)
+                        <li>컴퓨터 네트워크 (Computer Networks)
+                        <li>클라우드 컴퓨팅 (Cloud Computing)
+                    </ul>
+        </div>
+             </article>  
+
+        <div>
+            <article id="hobby">
+                <h2>취미</h2>
+            <hr>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td><img src="media/game.jpg"></td>
+                        <td><img src="media/movie.jpg"></td>
+                        <td><img src="media/music.jpg"></td>
+                    </tr>
+                </tbody>
+                <tfoot>   
+                    <tr><td>gaming</td><td>watching movie</td><td>listening music</td></tr>
+                </tfoot>
+            </table>
+        </div>
+            </article>
+
+        <div>
+            <article id="class schedule">
+                <h2>강의계획표(2025년1학기)</h2>
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr><th>구분</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>10</td><td></td><td></td><td>인터넷 콘텐츠</td><td>컴퓨터과학개론</td></tr>
+                    <tr><td>11</td><td></td><td></td><td>인터넷 콘텐츠</td><td>컴퓨터과학개론</td></tr>
+                    <tr><td>12</td><td></td><td></td><td>인터넷 콘텐츠</td><td>컴퓨터과학개론</td></tr>
+                    <tr><td>01</td><td></td><td></td><td>sw개발</td><td></td></tr>
+                    <tr><td>02</td><td>프로그래밍언어실습</td><td></td><td>sw개발</td><td></td></tr>
+                    <tr><td>03</td><td>프로그래밍언어실습</td><td></td><td></td><td></td></tr>
+                    <tr><td>04</td><td>프로그래밍언어실습</td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+            </article>
+        </section>
+
+        <div>
+        <footer>
+            <a href="https://chlqjawns1.github.io/webcontents/survey3.html" target="_blank">설문조사</a>
+           <p>Copyright 2026 by BUMJUN</p>
+        </footer>
+        </div>
+    </body>
+</html>
